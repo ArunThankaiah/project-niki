@@ -3,9 +3,10 @@ import React from 'react'
 
 const Home = () => {
   return <div className="home">
+   <div className="home-content">
    <div className="left-content">
-        <h2>YOUR FEET DESERVE THE BEST</h2>
-        <p>YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR SHOES.YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR SHOES.</p>
+        <h1>YOUR FEET DESERVE THE BEST</h1>
+        <p className='add'>YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR SHOES.YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR SHOES.</p>
         <div className="selectors">
           <button className='shop-now'>Shop Now</button>
           <button className="category">Category</button>
@@ -22,6 +23,7 @@ const Home = () => {
     <div className="right-content">
             <img src="/Images/shoe.png" alt="shoe" className='shoe' />
     </div>
+   </div>
   </div>
   
 }

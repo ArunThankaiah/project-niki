@@ -36,10 +36,9 @@
 .logo{
   width: 76px;
   height: 42.75px;
-  margin-left: 40px;
+  
 }
 .navbar button{
-  margin-right: 40px;
   width: 72px;
   height: 31px;
   background: #D01C28;
@@ -60,32 +59,42 @@
 /* Home */
 
 .home{
-  width: 1125px;
-  height: calc(100vh-72px);
+  width: 1440px;
+  height: 100vh;
   margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-content{
+  max-width: 1125px;
+  height: 613px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .left-content{
-  display: flex;
-  flex-direction: column;
-  gap: 36px;
-  margin-top: 5%;
- 
+ max-width: 595px;
+ display: flex;
+ flex-direction: column;
+ gap: 36px;
+
+
 }
-.left-content h2{
+.left-content h1{
   font-size: 108px;
   font-weight: 800;
   line-height: 102px;
- 
+  color: #000000;
+
 }
-.left-content p{
-  max-width: 404px;
+.left-content .add{
+  width: 404px;
+  height: 91px;
+  color:  #5A5959;
+  width: 600;
   font-size: 16px;
-  font-weight: 600;
   line-height: 24px;
-  color: #5a5959;
 }
 .selectors{
   display: flex;
@@ -93,54 +102,63 @@
 }
 .shop-now{
   all: unset;
-  background: #D01C28;
-  line-height: 29.05px;
-  font-weight: 600;
+  width: 118px;
   padding: 6px 16px;
-  color: #FFFF;
+  background: #D01C28;
+  color: #FFF;
+  display: flex;
+  gap: 10px;
   text-align: center;
-  font-weight: 600;
-  transition: 0.2s;
-  
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
 }
 .shop-now:hover{
   transform: scale(1.1);
 }
 .category{
   all: unset;
-  border: 1px solid #5a5959;
-  background: transparent;
-  line-height: 29.05px;
-  font-weight: 600;
-  padding: 6px 16px;
-  color: #5a5959;
-  text-align: center;
-  font-weight: 600;
-  transition: 0.2s;
-
+    width: 118px;
+    padding: 6px 16px;
+    background: transparent;
+    color: #5A5959;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #2E2E2E;
+    transition: 0.5s;
 }
 .category:hover{
   transform: scale(1.1);
+  background: #D01C28;
+  color: #FFF;
 }
-.shoe{
-  width: 530px;
-  height: 487.06px;
+.online-shop{
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
 }
 .online-shop p{
-  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  
+}
+.right-content img{
+  width: 530px;
+  height: 487.06px;
 }
 .online-img{
   display: flex;
   gap: 10px;
 }
-
 .flipkart{
   width: 32px;
   height: 32px;
-
 }
 .amazon{
   width: 32px;
   height: 32px;
-
 }
