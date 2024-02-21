@@ -1,6 +1,9 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 
 }
 /* Navbar */
@@ -11,7 +14,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 2px solid black;
+  
 }
 .navbar ul{
   display: flex;
@@ -37,4 +40,107 @@
 }
 .navbar button{
   margin-right: 40px;
+  width: 72px;
+  height: 31px;
+  background: #D01C28;
+  gap: 10px;
+  text-align: center;
+  border: none;
+  color: #fff;
+  padding: 6px 16px 6px 16px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19.36px;
+  transition: .2s;
+  
+}
+.navbar button:hover{
+  transform: scale(1.1);
+}
+/* Home */
+
+.home{
+  width: 1125px;
+  height: calc(100vh-72px);
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-content{
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  margin-top: 5%;
+ 
+}
+.left-content h2{
+  font-size: 108px;
+  font-weight: 800;
+  line-height: 102px;
+ 
+}
+.left-content p{
+  max-width: 404px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #5a5959;
+}
+.selectors{
+  display: flex;
+  gap: 24px;
+}
+.shop-now{
+  all: unset;
+  background: #D01C28;
+  line-height: 29.05px;
+  font-weight: 600;
+  padding: 6px 16px;
+  color: #FFFF;
+  text-align: center;
+  font-weight: 600;
+  transition: 0.2s;
+  
+}
+.shop-now:hover{
+  transform: scale(1.1);
+}
+.category{
+  all: unset;
+  border: 1px solid #5a5959;
+  background: transparent;
+  line-height: 29.05px;
+  font-weight: 600;
+  padding: 6px 16px;
+  color: #5a5959;
+  text-align: center;
+  font-weight: 600;
+  transition: 0.2s;
+
+}
+.category:hover{
+  transform: scale(1.1);
+}
+.shoe{
+  width: 530px;
+  height: 487.06px;
+}
+.online-shop p{
+  margin-bottom: 10px;
+}
+.online-img{
+  display: flex;
+  gap: 10px;
+}
+
+.flipkart{
+  width: 32px;
+  height: 32px;
+
+}
+.amazon{
+  width: 32px;
+  height: 32px;
+
 }
