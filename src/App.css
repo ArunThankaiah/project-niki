@@ -65,7 +65,7 @@
   margin: 0px auto;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 .left-content{
   display: flex;
