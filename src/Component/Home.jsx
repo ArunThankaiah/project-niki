@@ -15,13 +15,13 @@ const Home = () => {
         <div className="online-shop">
         <p>Also Available On</p>
         <div className="online-img">
-        <img src="/Images/Flipkart.png" alt="Flipkart" className='flipkart' />
-        <img src="/Images/Amazon.png" alt="Amazon" className='amazon' />
+        <img src="./Images/Flipkart.png" alt="Flipkart" className='flipkart' />
+        <img src="./Images/Amazon.png" alt="Amazon" className='amazon' />
         </div>
         </div>
     </div>
     <div className="right-content">
-            <img src="/Images/shoe.png" alt="shoe" className='shoe' />
+            <img src="./Images/shoe.png" alt="shoe" className='shoe' />
     </div>
    </div>
   </div>
